@@ -36,7 +36,7 @@ int main ( int argc, char *argv[] )
         memory_usage = 0;
         pid = 0;
         int ret;
-        string cmd_str = "echo 1111111111111111111";
+        string cmd_str = "echo 111111111111111111111";
         LOG ( INFO ) << "rte_str == " << getCmdResult ( cmd_str );
         Sleep ( 100 );
 
